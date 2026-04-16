@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="theme-color" content="#D84315">
+    <meta name="theme-color" content="#134074">
     <title>Bakery Dispatch</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
@@ -19,10 +19,9 @@
             overflow: hidden;
         }
         body {
-            background: #FFF3E0;
+            background: #EEF4ED;
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
         }
-
         /* Loading screen shown while iframe loads */
         #loader {
             position: fixed;
@@ -31,7 +30,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(145deg, #FB8C00, #EF6C00);
+            background: linear-gradient(145deg, #134074, #0B2545);
             z-index: 10;
             transition: opacity 0.4s ease;
         }
@@ -45,27 +44,26 @@
             margin-bottom: 20px;
         }
         #loader h1 {
-            color: #fff;
+            color: #EEF4ED;
             font-size: 22px;
             font-weight: 600;
             letter-spacing: 0.5px;
         }
         #loader p {
-            color: rgba(255,255,255,0.7);
+            color: rgba(238, 244, 237, 0.7);
             font-size: 14px;
             margin-top: 8px;
         }
         .spinner {
             width: 36px;
             height: 36px;
-            border: 3px solid rgba(255,255,255,0.2);
-            border-top-color: #fff;
+            border: 3px solid rgba(238, 244, 237, 0.2);
+            border-top-color: #1A96C7;
             border-radius: 50%;
             margin-top: 24px;
             animation: spin 0.8s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
-
         iframe {
             position: fixed;
             inset: 0;
