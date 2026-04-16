@@ -5,8 +5,8 @@
     "start_url": "/Balaji-App-Dispatch/",
     "display": "standalone",
     "orientation": "any",
-    "background_color": "#EF6C00",
-    "theme_color": "#EF6C00",
+    "background_color": "#134074",
+    "theme_color": "#134074",
     "icons": [
         {
             "src": "icon-192.png",
